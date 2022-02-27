@@ -1,0 +1,12 @@
+const mongoose = require("mongoose");
+const { string, required } = require("yargs");
+
+const /* {Add schema name here} */  = new mongoose.Schema({
+
+        // shcema object goes here
+
+});
+
+const /* {Add Var Name} */  = mongoose.model("{Add Var Name}", movieSchema);
+
+module.exports = /* {Add Var Name} */;
